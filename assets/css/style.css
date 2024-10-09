@@ -1,39 +1,4 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: Oction - NFT Marketplace HTML Template
-    Author: BDevs
-    Support: https://www.devsnews.com/support/
-    Description: Oction - NFT Marketplace HTML Template
-    Version: 1.0
-
------------------------------------------------------------------------------------
-
-/************ TABLE OF CONTENTS ***************
-
-
-    01. common CSS
-    02. header CSS
-    03. banner CSS
-    04. about CSS
-    05. page-title CSS
-    06. profile CSS
-    07. art CSS
-    08. creator CSS
-    09. register CSS
-    10. process CSS
-    11. account CSS
-    12. activity CSS
-    13. forum CSS
-    14. footer CSS
-    15. body-color CSS
-    16. wallet CSS
-
-
-**********************************************/
-/*----------------------------------------
-    01. common CSS
-----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&display=swap");
 * {
   margin: 0;
@@ -235,7 +200,7 @@ p {
   --clr-bg-gray: #f9f9f9;
   --clr-bg-black: #000000;
   --clr-bg-footer: #f9f9f9;
-  --clr-bg-dark: #111826;
+  --clr-bg-dark: #FFFFFF;
 }
 
 :root .active-dark-mode {
@@ -254,7 +219,7 @@ p {
   --clr-bg-gray: #181f2d;
   --clr-bg-black: #000000;
   --clr-bg-footer: #181f2d;
-  --clr-bg-dark: #111826;
+  --clr-bg-dark: #FFFFFF;
 }
 
 :root .active-light-mode {
@@ -1312,7 +1277,7 @@ div.mean-container .mean-nav > ul {
 div.mean-container .mean-nav ul li a {
   width: 100%;
   color: var(--clr-common-white);
-  border-top: 1px solid #111826;
+  border-top: 1px solid #FFFFFF;
   font-size: 16px;
   text-transform: none;
   opacity: 1;
@@ -6894,7 +6859,7 @@ div.mean-container a.meanmenu-reveal {
 
 .body-bg.dark,
 .body-bg.active-dark-mode {
-  background: #111826;
+  background: #FFFFFF;
 }
 
 .body-bg.white {
@@ -6942,8 +6907,8 @@ div.mean-container a.meanmenu-reveal {
   background: #1c2434;
 }
 .active-dark-mode .social__links ul li a {
-  background: #111826;
-  border: 1px solid #111826;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 .active-dark-mode .social__links ul li a:hover {
   background: var(--clr-theme-1);
@@ -6966,7 +6931,7 @@ div.mean-container a.meanmenu-reveal {
   border-color: #262e3e;
 }
 .active-dark-mode .header-main2 {
-  background: #111826;
+  background: #FFFFFF;
 }
 .active-dark-mode .sidebar-category-filter {
   border-color: #262e3e;
